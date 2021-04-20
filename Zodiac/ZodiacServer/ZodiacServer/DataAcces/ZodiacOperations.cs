@@ -14,11 +14,10 @@ namespace ZodiacServer.DataAcces
             public static List<Tuple<Zodiac, Zodiac, string>> GetAllZodiacs(string filePath)
             {
                 var zodiacs = new List<Tuple<Zodiac, Zodiac, string>>();
-
                 try
                 {
-                    var sr = new StreamReader(filePath);
-                    var line = sr.ReadLine()?.Split(" ");
+                    var streamReader = new StreamReader(filePath);
+                    var line = streamReader.ReadLine()?.Split(" ");
                     while (line != null)
                     {
                         zodiacs.Add(new Tuple<Zodiac, Zodiac, string>(
@@ -26,13 +25,13 @@ namespace ZodiacServer.DataAcces
                             new Zodiac { Date = line[1] },
                             line[2]));
 
-                        line = sr.ReadLine()?.Split(" ");
+                        line = streamReader.ReadLine()?.Split(" ");
                     }
-                    sr.Close();
+                    streamReader.Close();
                 }
                 catch (Exception)
                 {
-                    Console.WriteLine("File Not Readable!");
+                    Console.WriteLine("The file is not readable!");
                 }
 
                 return zodiacs;
@@ -41,18 +40,14 @@ namespace ZodiacServer.DataAcces
             public static string GetSign(string zodiacDate, string filePath)
             {
                 var zodiacs = GetAllZodiacs(filePath);
-
                 return (from variable in zodiacs
-
                         let startMonth = int.Parse(variable.Item1.Date.Substring(0, 2))
                         let startDay = int.Parse(variable.Item1.Date.Substring(3, 2))
                         let endMonth = int.Parse(variable.Item2.Date.Substring(0, 2))
                         let endDay = int.Parse(variable.Item2.Date.Substring(3, 2))
-
                         let date = zodiacDate.Split("/")
                         let thisMonth = int.Parse(date[0])
                         let thisDay = int.Parse(date[1])
-
                         where thisMonth == startMonth && thisDay >= startDay || thisMonth == endMonth && thisDay <= endDay
                         select variable.Item3).FirstOrDefault();
             }

@@ -15,18 +15,16 @@ namespace ZodiacServer.Services
         public override Task<AddZodiacResponse> AddZodiac(AddZodiacRequest request, ServerCallContext context)
         {
             var zodiac = request.Zodiac;
-
             if (zodiac.Date.Equals("Invalid Date"))
             {
-                Console.WriteLine("\nDate Is Blank!");
+                Console.WriteLine("\nThe date is Blank!");
                 return Task.FromResult(new AddZodiacResponse()
-                { Status = AddZodiacResponse.Types.Status.Error, Sign = "Invalid Sign" });
+                { Status = AddZodiacResponse.Types.Status.Error, Sign = "Invalid sign" });
             }
-            var sign = ZodiacOperations.GetSign(zodiac.Date,@".\Resources\zodiac.txt"); 
-        Console.WriteLine($"\nSign: {sign}\n");
-
+            var zodiacSign = ZodiacOperations.GetSign(zodiac.Date,@".\Resources\zodiac.txt"); 
+            Console.WriteLine($"\nSign: {zodiacSign}\n");
             return Task.FromResult(new AddZodiacResponse()
-            { Status = AddZodiacResponse.Types.Status.Success, Sign = sign });
+               { Status = AddZodiacResponse.Types.Status.Success, Sign = zodiacSign });
         }
 
         
