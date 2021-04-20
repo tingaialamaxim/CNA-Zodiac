@@ -1,0 +1,2 @@
+obj\Debug\net5.0\Protos/Zodiac.cs \
+obj\Debug\net5.0\Protos/ZodiacGrpc.cs: Protos/zodiac.proto
