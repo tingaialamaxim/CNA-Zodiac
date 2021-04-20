@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yDurwP37UoOnXmATGUoToCewqsBNP1tC9A5DcZmNNi1qeVAsaDmMi/Ao7gX/+B+GfNX94EGusRh2MI7psR7eTQ==",
+  "dgSpecHash": "MqogJO9EziHWWaggkMaxkQRD5gqOEbY/0KGzlOQRn3F74LQ4ggA+vkyrCGt/gh1oRX03L+9dMdU7/F3ALtpPzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maxim1\\Desktop\\programare\\Anul 2 sem 2\\CNA\\Zodiac\\ZodiacClient\\ZodiacClient\\ZodiacClient.csproj",
+  "projectFilePath": "C:\\Users\\Maxim1\\Desktop\\programare\\CNA2\\Zodiac\\ZodiacClient\\ZodiacClient\\ZodiacClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maxim1\\.nuget\\packages\\google.protobuf\\3.15.8\\google.protobuf.3.15.8.nupkg.sha512",
     "C:\\Users\\Maxim1\\.nuget\\packages\\grpc.core.api\\2.36.1\\grpc.core.api.2.36.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TpI4G6rRc9cmjJMSl0r8vXPggqvW05ufk6ugf+2M1VWj/VhpVQEmXzX0eiGW+PPMpT+dVIm3J1IdN7tdz+jeBA==",
+  "dgSpecHash": "vp7plY9Sy1JQpLJxRpNcaWOEwF9tlVx2B+SBYMAkUmIUIlrkBOLsLFql/b9xiO/TDt6xdFkyxvxHS/0ds/n5+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maxim1\\Desktop\\programare\\Anul 2 sem 2\\CNA\\Zodiac\\ZodiacServer\\ZodiacServer\\ZodiacServer.csproj",
+  "projectFilePath": "C:\\Users\\Maxim1\\Desktop\\programare\\CNA2\\Zodiac\\ZodiacServer\\ZodiacServer\\ZodiacServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maxim1\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
     "C:\\Users\\Maxim1\\.nuget\\packages\\grpc.aspnetcore\\2.34.0\\grpc.aspnetcore.2.34.0.nupkg.sha512",

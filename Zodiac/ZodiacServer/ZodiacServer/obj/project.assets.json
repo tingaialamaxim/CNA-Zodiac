@@ -698,11 +698,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maxim1\\Desktop\\programare\\Anul 2 sem 2\\CNA\\Zodiac\\ZodiacServer\\ZodiacServer\\ZodiacServer.csproj",
+      "projectUniqueName": "C:\\Users\\Maxim1\\Desktop\\programare\\CNA2\\Zodiac\\ZodiacServer\\ZodiacServer\\ZodiacServer.csproj",
       "projectName": "ZodiacServer",
-      "projectPath": "C:\\Users\\Maxim1\\Desktop\\programare\\Anul 2 sem 2\\CNA\\Zodiac\\ZodiacServer\\ZodiacServer\\ZodiacServer.csproj",
+      "projectPath": "C:\\Users\\Maxim1\\Desktop\\programare\\CNA2\\Zodiac\\ZodiacServer\\ZodiacServer\\ZodiacServer.csproj",
       "packagesPath": "C:\\Users\\Maxim1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maxim1\\Desktop\\programare\\Anul 2 sem 2\\CNA\\Zodiac\\ZodiacServer\\ZodiacServer\\obj\\",
+      "outputPath": "C:\\Users\\Maxim1\\Desktop\\programare\\CNA2\\Zodiac\\ZodiacServer\\ZodiacServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Maxim1\\AppData\\Roaming\\NuGet\\NuGet.Config",

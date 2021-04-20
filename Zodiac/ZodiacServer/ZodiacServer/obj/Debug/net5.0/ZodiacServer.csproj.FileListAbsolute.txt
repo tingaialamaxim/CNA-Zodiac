@@ -29,3 +29,34 @@ C:\Users\Maxim1\Desktop\programare\Anul 2 sem 2\CNA\Zodiac\ZodiacServer\ZodiacSe
 C:\Users\Maxim1\Desktop\programare\Anul 2 sem 2\CNA\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.pdb
 C:\Users\Maxim1\Desktop\programare\Anul 2 sem 2\CNA\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.genruntimeconfig.cache
 C:\Users\Maxim1\Desktop\programare\Anul 2 sem 2\CNA\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.csprojAssemblyReference.cache
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\appsettings.json
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\ZodiacServer.exe
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\ZodiacServer.deps.json
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\ZodiacServer.runtimeconfig.json
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\ZodiacServer.runtimeconfig.dev.json
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\ZodiacServer.dll
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\ref\ZodiacServer.dll
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\ZodiacServer.pdb
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\Grpc.AspNetCore.Server.dll
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\Grpc.Core.Api.dll
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\Grpc.Net.Client.dll
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\Grpc.Net.ClientFactory.dll
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\bin\Debug\net5.0\Grpc.Net.Common.dll
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.csprojAssemblyReference.cache
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.AssemblyInfoInputs.cache
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.AssemblyInfo.cs
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.csproj.CoreCompileInputs.cache
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\staticwebassets\ZodiacServer.StaticWebAssets.Manifest.cache
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\staticwebassets\ZodiacServer.StaticWebAssets.xml
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\scopedcss\bundle\ZodiacServer.styles.css
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.RazorTargetAssemblyInfo.cache
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.csproj.CopyComplete
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.dll
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ref\ZodiacServer.dll
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.pdb
+C:\Users\Maxim1\Desktop\programare\CNA2\Zodiac\ZodiacServer\ZodiacServer\obj\Debug\net5.0\ZodiacServer.genruntimeconfig.cache

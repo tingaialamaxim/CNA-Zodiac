@@ -328,11 +328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maxim1\\Desktop\\programare\\Anul 2 sem 2\\CNA\\Zodiac\\ZodiacClient\\ZodiacClient\\ZodiacClient.csproj",
+      "projectUniqueName": "C:\\Users\\Maxim1\\Desktop\\programare\\CNA2\\Zodiac\\ZodiacClient\\ZodiacClient\\ZodiacClient.csproj",
       "projectName": "ZodiacClient",
-      "projectPath": "C:\\Users\\Maxim1\\Desktop\\programare\\Anul 2 sem 2\\CNA\\Zodiac\\ZodiacClient\\ZodiacClient\\ZodiacClient.csproj",
+      "projectPath": "C:\\Users\\Maxim1\\Desktop\\programare\\CNA2\\Zodiac\\ZodiacClient\\ZodiacClient\\ZodiacClient.csproj",
       "packagesPath": "C:\\Users\\Maxim1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maxim1\\Desktop\\programare\\Anul 2 sem 2\\CNA\\Zodiac\\ZodiacClient\\ZodiacClient\\obj\\",
+      "outputPath": "C:\\Users\\Maxim1\\Desktop\\programare\\CNA2\\Zodiac\\ZodiacClient\\ZodiacClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Maxim1\\AppData\\Roaming\\NuGet\\NuGet.Config",
