@@ -12,7 +12,6 @@ namespace ZodiacServer.Services
 {
     public class ZodiacService: Horoscope.HoroscopeBase
     {
-        /*private readonly ZodiacOperations zodiacOperations = new ZodiacOperations();*/
         public override Task<AddZodiacResponse> AddZodiac(AddZodiacRequest request, ServerCallContext context)
         {
             var zodiac = request.Zodiac;
@@ -23,20 +22,7 @@ namespace ZodiacServer.Services
                 return Task.FromResult(new AddZodiacResponse()
                 { Status = AddZodiacResponse.Types.Status.Error, Sign = "Invalid Sign" });
             }
-
-          
-
-           /* var date = zodiac.Date.Split("/");
-            var thisYear = int.Parse(date[2]);
-            var thisMonth = int.Parse(date[0]);
-            var thisDay = int.Parse(date[1]);*/
-
-           /* var dateTime = new DateTime(thisYear, thisMonth, thisDay);*/
-            var sign = ZodiacOperations.GetSign(zodiac.Date,@".\Resources\zodiac.txt");
-           /* var client = new Horoscope.HoroscopeClient(channel);
-            var response = client.AddZodiac(new AddZodiacRequest { Zodiac });
-            */
-            
+            var sign = ZodiacOperations.GetSign(zodiac.Date,@".\Resources\zodiac.txt"); 
         Console.WriteLine($"\nSign: {sign}\n");
 
             return Task.FromResult(new AddZodiacResponse()
