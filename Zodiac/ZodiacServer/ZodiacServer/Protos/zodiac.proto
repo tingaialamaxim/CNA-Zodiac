@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "ZodiacServer";
+
+package zodiac;
+
+service Horoscope{
+	rpc AddZodiac(AddZodiacRequest) returns (AddZodiacResponse);
+}
+
+message AddZodiacRequest{
+	Zodiac zodiac = 1;
+}
+
+message AddZodiacResponse{
+	Status status = 1;
+	string sign = 2;
+
+	enum Status{
+		SUCCESS = 0;
+		ERROR = 1;
+	}
+}
+
+message GetAllZodiacsResponse{
+	repeated Zodiac zodiacs= 1;
+}
+
+message Zodiac{
+	string date = 1;
+}
