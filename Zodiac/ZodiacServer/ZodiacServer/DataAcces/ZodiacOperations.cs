@@ -24,7 +24,6 @@ namespace ZodiacServer.DataAcces
                             new Zodiac { Date = line[0] },
                             new Zodiac { Date = line[1] },
                             line[2]));
-
                         line = streamReader.ReadLine()?.Split(" ");
                     }
                     streamReader.Close();
@@ -33,14 +32,13 @@ namespace ZodiacServer.DataAcces
                 {
                     Console.WriteLine("The file is not readable!");
                 }
-
                 return zodiacs;
             }
 
             public static string GetSign(string zodiacDate, string filePath)
             {
-                var zodiacs = GetAllZodiacs(filePath);
-                return (from variable in zodiacs
+                var allZodiacs = GetAllZodiacs(filePath);
+                return (from variable in allZodiacs
                         let startMonth = int.Parse(variable.Item1.Date.Substring(0, 2))
                         let startDay = int.Parse(variable.Item1.Date.Substring(3, 2))
                         let endMonth = int.Parse(variable.Item2.Date.Substring(0, 2))

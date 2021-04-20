@@ -19,9 +19,9 @@ namespace ZodiacClient
                 Console.Write("Enter the date you want to find the zodiac sing for: ");
                 date = Console.ReadLine();
             } while (!ValidationOfDate(date));
-            var zodiacToBeAdded = new Zodiac()
+            var zodiacAdded = new Zodiac()
             { Date = date != null && date.Trim().Length > 0 ? date : "Invalid Date" };
-            var response = await client.AddZodiacAsync(new AddZodiacRequest { Zodiac = zodiacToBeAdded });
+            var response = await client.AddZodiacAsync(new AddZodiacRequest { Zodiac = zodiacAdded });
              Console.WriteLine($"\nResponse Status: {response.Status}\nSign: {response.Sign}\n");
             }
         public static bool ValidationOfDate(string date)
