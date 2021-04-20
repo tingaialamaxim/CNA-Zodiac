@@ -50,7 +50,7 @@ namespace ZodiacClient
             try
             {
                 var givenDate = date.Split("/");
-                var dateTime = new DateTime( int.Parse(givenDate[2]),int.Parse(givenDate[1]),int.Parse(givenDate[0]));
+                var dateTime = new DateTime( int.Parse(givenDate[2]),int.Parse(givenDate[0]),int.Parse(givenDate[1]));
             }
             catch(Exception)
             {
