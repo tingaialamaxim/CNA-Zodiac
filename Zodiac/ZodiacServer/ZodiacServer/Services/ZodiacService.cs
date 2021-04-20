@@ -26,7 +26,5 @@ namespace ZodiacServer.Services
             return Task.FromResult(new AddZodiacResponse()
                { Status = AddZodiacResponse.Types.Status.Success, Sign = zodiacSign });
         }
-
-        
     }
 }

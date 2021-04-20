@@ -22,7 +22,7 @@ namespace ZodiacClient
             var zodiacToBeAdded = new Zodiac()
             { Date = date != null && date.Trim().Length > 0 ? date : "Invalid Date" };
             var response = await client.AddZodiacAsync(new AddZodiacRequest { Zodiac = zodiacToBeAdded });
-             Console.WriteLine($"\nResponse Status: {response.Status}\n\nSign: {response.Sign}\n\n");
+             Console.WriteLine($"\nResponse Status: {response.Status}\nSign: {response.Sign}\n");
             }
         public static bool ValidationOfDate(string date)
         {
